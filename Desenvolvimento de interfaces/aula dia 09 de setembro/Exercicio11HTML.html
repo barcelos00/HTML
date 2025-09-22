@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Exemplo 11 HTML Formulários- método POST</h1>
+    <p>0s formulários em HTML são um dos principais recursos para coleta de dados, eles devem ser simples e altamante
+        funcionais, atendendo sempre as necessidades dos usuários.</p>
+    <p>Para trabalhor com fomulários em html, possuimos uma série de componentes que vão facilitar o processo de
+        interação com o usuário. Todos os formulários começam necessariamente com a tag &lt;form&gt;, essa tag indica
+        para o navegador que página html possui um formulários que pode enviar dados.</p>
+
+    <p>Além da tag &lt;form&gt; temos também que usar os atributos action(que define o local url- em que os dados
+        recolhidos/coletados devem ser enviados.), e o method que define qual o método http para enviar os dados GET ou
+        POST
+    </p>
+    <h2>Exemplo Prático -Tela de Login - com método POST</h2>
+    <form action="paginaDestino.php" method="post">
+        <div>
+            <fieldset>
+                <legend> Tela de Login</legend>
+                <h4>Tela de Login</h4>
+                <label for=""> Informe o usuário </label><br>
+                <input type="text" name="txtUsuárioName" id="txtUsuário">
+                <br>
+                <label for="">Informe a sua senha:</label><br>
+                <input type="password" name="txtSenhaName" id="txtSenha"><br><br>
+                <button type="submit">logar/button><br>
+
+            </fieldset>
+            </fieldset>
+        </div>
+    </form>
+
+</body>
+
+</html>

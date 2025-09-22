@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 14 css</title>
+     <style>
+
+        h1 {
+            color: coral;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            color: blue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        p {
+            text-align: justify;
+            font-size: 1em;
+            font-weight: 600;
+        }
+
+        div {
+            border-left: red solid 5px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px 2px, rgba(0, 0.3) 0px 3px 7px 3px;
+            margin: 5px;
+            padding: 10px;
+        }
+        
+   
+        .div1 {
+            border-left: solid greenyellow 5px;
+            font-weight: bold;
+            font-style: italic;
+            background-color: azure;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+            ;
+            margin: 60PX;
+            padding: 50PX;
+        }
+
+        .div2 {
+            border-left: solid darkorange 5px;
+            font-weight: bold;
+            background-color: azure;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+            margin: 60PX;
+            padding: 50PX;
+        }
+        
+    </style>
+</head>
+</head>
+<body>
+    <body>
+    <header>
+        <h1>Exemplo 9 HTML - Elementos Semanticos e Link</h1>
+    </header>
+    <nav>
+
+        <nav>
+            <ul>
+                <li> <a href="https://youtu.be/ggtWTKbhN_U?list=PL29TaWXah3iYzP5FGywXezXm4ZvBibGSk">React</a></li>
+                <li><a href="https://youtu.be/tPOMG0D57S0?list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G">Angular</a>
+                    <ul>
+                        Angular é um framework front-end criado pelo Google. Ele serve para desenvolver aplicações web
+                        de
+                        página única
+                        (SPA – Single Page Applications).
+
+                        <li>Diferente de usar apenas HTML, CSS e JavaScript puro, o Angular oferece:</li>
+                        <ul>
+                            <li>Componentes: divide a aplicação em partes reaproveitáveis.</li>
+                            <li> Data Binding: liga os dados do código à interface de forma automática.</li>
+                            <li>Diretivas: adicionam comportamento extra aos elementos do HTML.</li>
+                            <li>Roteamento: permite trocar de “páginas” sem recarregar o site todo.</li>
+                            <li>TypeScript: o Angular é escrito em TypeScript (um superconjunto do JavaScript que
+                                adiciona
+                                tipagem).</li>
+                        </ul>
+                    </ul>
+                </li>
+
+
+                <li><a href="https://youtu.be/wsAQQioPIJs">Vue.js</a>
+                    <ul>
+                        Framework progressivo para interfaces web, criado por Evan You (ex-Google). Focado em ser
+                        simples de
+                        aprender e leve
+                        <li>Caracteristicas:</li>
+                        <ul>
+                            <li>Muito fácil de integrar em projetos já existentes.</li>
+                            <li>Usa componentes também, mas de forma mais flexível que Angular.</li>
+                            <li>Tem reatividade forte: quando os dados mudam, a interface muda automaticamente.</li>
+                            <li>Tem reatividade forte: quando os dados mudam, a interface muda automaticamente.</li>
+                        </ul>
+                    </ul>
+                </li>
+
+
+                <li><a href="https://youtu.be/LrREvP6wlRY">Blazor C#</a>
+                    <ul>Framework da Microsoft para criar aplicações web modernas. Com sua linguame principal sendo C#.
+                        Possui o foco de
+                        permitir que desenvolvedores .NET façam aplicações web sem precisar usar só JavaScript.
+                        <li>Diferente de usar apenas HTML, CSS e JavaScript puro, o Angular oferece:</li>
+                        <ul>
+                            <li>Você escreve C# no lugar de JavaScript.</li>
+                            <li>Funciona de dois modos:</li>
+                            <ol type="1">
+                                <li>Blazor Server → o código roda no servidor e envia atualizações para o navegador.
+                                </li>
+                                <li>Blazor WebAssembly → o código C# roda direto no navegador usando WebAssembly.</li>
+                            </ol>
+
+                            <li>Integra-se muito bem com ASP.NET e todo o ecossistema Microsoft.</li>
+                        </ul>
+                </li>
+            </ul>
+
+            <main>
+                <section>
+                    <h2>Web semantica:</h2>
+                    <p>A web semantica é uma estenção da eweb atual, onde a informação possui signifiacdo e permite que
+                        computadores e pessoas possam trabalhar em conjunto. As tags da web semantica ajudam os
+                        mecanismos de busca na tarefa de criar repositórios e recuperar informaçõe. As principais tags
+                        são: &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;section&gt;, &lt;article&gt;, &lt;aside&gt;
+                        e &lt;footer&gt;. </p>
+                    <p>Neste exemplo estamos usando a web semantica em todo o docuemtno html </p>
+                    <h2>React.js</h2>
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis tenetur optio a explicabo
+                        vero suscipit, nostrum sequi maiores modi architecto amet rerum laudantium. Sed excepturi
+                        nostrum ea nulla voluptates rerum.
+                    <article>
+                        <h2>Caracteristicas do React</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, cum? Reiciendis incidunt
+                            ullam, fuga eius at rerum. Ipsam, facere. Sit distinctio atque tempore rem labore laborum
+                            vitae vel eaque? Facere!</p>
+                    </article>
+                    <article>
+                        <h2>Objetivo do React</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, eveniet magni? Eveniet,
+                            recusandae inventore, alias, quam fugiat aperiam assumenda veritatis ea eligendi
+                            consequuntur nesciunt temporibus doloremque quasi quisquam aut eaque.</p>
+                    </article>
+                </section>
+                <aside>
+                    <ul>
+                        <li> <a href="https://youtu.be/ggtWTKbhN_U?list=PL29TaWXah3iYzP5FGywXezXm4ZvBibGSk">React</a>
+                        </li>
+                        <li><a href="https://youtu.be/tPOMG0D57S0?list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G">Angular</a>
+                        </li>
+                        <li><a href="https://youtu.be/wsAQQioPIJs">Vue.js</a></li>
+                        <li><a href="https://youtu.be/LrREvP6wlRY">Blazor C#</a></li>
+                    </ul>
+                </aside>
+            </main>
+            <br>
+            <footer>
+                <h5>Criado por: Victor Barcelos </h5>
+                <h6>Data: 09/09/2025</h6>
+            </footer>
+
+              <h1>Exemplo 10 HTML Formulários</h1>
+    <p>0s formulários em HTML são um dos principais recursos para coleta de dados, eles devem ser simples e altamante
+        funcionais, atendendo sempre as necessidades dos usuários.</p>
+    <p>Para trabalhor com fomulários em html, possuimos uma série de componentes que vão facilitar o processo de
+        interação com o usuário. Todos os formulários começam necessariamente com a tag &lt;form&gt;, essa tag indica
+        para o navegador que página html possui um formulários que pode enviar dados.</p>
+
+    <p>Além da tag &lt;form&gt; temos também que usar os atributos action(que define o local url- em que os dados
+        recolhidos/coletados devem ser enviados.), e o method que define qual o método http para enviar os dados GET ou
+        POST
+    </p>
+    <h2>Exemplo Prático -Tela de Login</h2>
+    <form action="paginaDestino.php" method="get">
+        <div>
+            <fieldset>
+                <legend> Tela de Login</legend>
+                <h4>Tela de Login</h4>
+                <label for=""> Informe o usuário </label><br>
+                <input type="text" name="txtUsuárioName" id="txtUsuário">
+                <br>
+                <label for="">Informe a sua senha:</label><br>
+                <input type="password" name="txtSenhaName" id="txtSenha"><br><br>
+                <button type="submit">loga filha da puta</button><br>
+
+            </fieldset>
+            </fieldset>
+        </div>
+    </form>
+<br>
+<br>
+    <h1>Exemplo 11 HTML Formulários- método POST</h1>
+    <p>0s formulários em HTML são um dos principais recursos para coleta de dados, eles devem ser simples e altamante
+        funcionais, atendendo sempre as necessidades dos usuários.</p>
+    <p>Para trabalhor com fomulários em html, possuimos uma série de componentes que vão facilitar o processo de
+        interação com o usuário. Todos os formulários começam necessariamente com a tag &lt;form&gt;, essa tag indica
+        para o navegador que página html possui um formulários que pode enviar dados.</p>
+
+    <p>Além da tag &lt;form&gt; temos também que usar os atributos action(que define o local url- em que os dados
+        recolhidos/coletados devem ser enviados.), e o method que define qual o método http para enviar os dados GET ou
+        POST
+    </p>
+    <h2>Exemplo Prático -Tela de Login - com método POST</h2>
+    <form action="paginaDestino.php" method="post">
+        <div>
+            <fieldset>
+                <legend> Tela de Login</legend>
+                <h4>Tela de Login</h4>
+                <label for=""> Informe o usuário </label><br>
+                <input type="text" name="txtUsuárioName" id="txtUsuário">
+                <br>
+                <label for="">Informe a sua senha:</label><br>
+                <input type="password" name="txtSenhaName" id="txtSenha"><br><br>
+                <button type="submit">logar/button><br>
+
+            </fieldset>
+            </fieldset>
+        </div>
+    </form>
+<br>
+<br>
+ <h1>Exemplo 12 - formulario e tabela</h1>
+    <form action="paginadestino.java" method="get">
+        <legend>Dados Pessoais: </legend>
+        <fieldset>
+            <div>
+                <label for="">Digite o seu CPF: </label><br>
+                <input type="text" name="txtCPF" id="txtCPF">
+            </div>
+            <br>
+            <div>
+
+                <label for="">Digite seu nome</label> <br>
+                <input type="text" name="txtnome" id="txtnome">
+
+            </div>
+            <div>
+                <label for="">data de nascimento </label><br>
+                <input type="date" name="txtDatanascimento" id="txtDatanascimento">
+            </div>
+            <br>
+            <div>
+                <label for="">Estado Civil </label><br>
+                <select name="cboEstadoCivil" id="">
+                    <option value="1"> Casado</option>
+                    <option value="2"> Solteiro</option>
+                    <option value="3"> Divorciado</option>
+                    <option value="4"> Viúvo</option>
+                    <option value="5"> TicoTico no fubá</option>
+                    <option value="6"> Outros</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="">Sexo</label>
+                <input type="radio" name="rdSexo" id="idSexo" value="1"> Feminino
+                <input type="radio" name="rdSexo" id="idSexo" value="2"> Masculino
+            </div>
+            <br>
+            <div>
+                <button type="submit">Cadastrar</button>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Dados Cadastrados</legend>
+            
+            <table border="1">
+                <tr>
+                    <th>CPF</th>
+                    <th>nome</th>
+                    <th>Sexo</th>
+                </tr>
+                <tr>
+                    <td>555.555.555-98</td>
+                    <td>JOSÉ DAS COUVES</td>
+                    <td>MASCULINO</td>
+                </tr>
+                <tr>
+                    <td>555.555.555-98</td>
+                    <td>JOSÉ DAS COUVES</td>
+                    <td>MASCULINO</td>
+                </tr>
+                <tr>
+                    58
+                    <td>555.555.555-98</td>
+                    <td>JOSÉ DAS COUVES</td>
+                    <td>MASCULINO</td>
+                </tr>
+                <tr>
+                    <td>555.555.555-98</td>
+                    <td>JOSÉ DAS COUVES</td>
+                    <td>MASCULINO</td>
+                </tr>
+            </table>
+        </fieldset>
+
+
+    </form>
+<br>
+<br>
+ <h1>Exemplo13 de HTML - Formuularios</h1>
+    <form action="paginaDestino" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="">Nome</label>
+            <input type="text" name="txtNome" id="txtNome" required> <br>
+
+            <label for="">Ano de Nascimento </label><br>
+            <input type="number" name="txtAnoNascimento" id="txtAnoNascimento" min="1940" max="20100" step="1"> <br>
+
+            <label for="">Telefone</label><br>
+            <input type="tel" name="txtTelefone" id="txtTelefone"> <br>
+
+            <label for="">Genêros de filmes favoritos</label><br>
+            <input type="checkbox" name="chkGenero" id="chkGenero" value="1"> Ficção <br>
+            <input type="checkbox" name="chkGenero" id="chkGenero" value="2"> Drama <br>
+            <input type="checkbox" name="chkGenero" id="chkGenero" value="3"> Romance <br>
+            <input type="checkbox" name="chkGenero" id="chkGenero" value="4"> Ação <br>
+            <input type="checkbox" name="chkGenero" id="chkGenero" value="5"> Terror <br>
+
+            <button type="submit">Cadastrar</button>
+
+        </fieldset>
+    </form>
+
+<br>
+<br>
+
+<head>
+   
+
+
+    <div>
+        <h1>Exemplo 14 HTML - CSS</h1>
+        <h2>Visão Geral sobre CSS</h2>
+        <p>CSS é um acrônimo para folhas de estilo em cascata. Essa técnica visa personalisar, estilizar um documento
+            HTML. Para isso, usamos regras CSS, que representam uma estrutura que define como os elementos selecionados
+            devem ser estilizados. Essa regra é composta pelas seguintes partes:</p>
+        <ul>
+            <li><strong>Seletor</strong> Indica quais elementos serão afetados pelo estilo definido.</li>
+            <li><strong>Bloco de Declaração</strong> É o bloco composto por propriedades e valores, esse bloco será
+                aplicado ao elemento html.</li>
+
+        </ul>
+    </div>
+    <div>
+        <h1>Tipos de seletores</h1>
+        <p>Em CSS seletores são padrões usados para selecionar e estilizar os elementos HTML em uma página web. Eles
+            defines quais elementos receberão as regras de estilos que serão declaradas dentro das chaves. Possuímos
+            varios tipos de seletores os principais são:</p>
+
+        <h2>Seletores de Tipo</h2>
+        <p>Os seletores de Tipo são aqueles que são representados pelo nome da tag do elemento html, seguido
+            {propriedade:valor;}</p>
+        <p>Neste exemplo estamos utilizando seletores de tipo para estilizar o documento HTML. Para mais informações
+            acesse a estrtura desta página.</p>
+    </div>
+
+    
+    <div class="div1">
+        <h1>Exemplo 15 HTML - CSS</h1>
+
+        <h2>Visão Geral sobre CSS</h2>
+
+        <p>CSS é um acrônimo para folhas de estilo em cascata. Essa técnica visa personalisar, estilizar um documento
+            HTML. Para isso, usamos regras CSS, que representam uma estrutura que define como os elementos selecionados
+            devem ser estilizados. Essa regra é composta pelas seguintes partes:</p>
+        <ul>
+            <li><strong>Seletor</strong> Indica quais elementos serão afetados pelo estilo definido.</li>
+
+            <li><strong>Bloco de Declaração</strong> É o bloco composto por propriedades e valores, esse bloco será
+                aplicado ao elemento html.</li>
+
+        </ul>
+    </div>
+    <div class="div2">
+        <h1>Tipos de seletores</h1>
+
+        <p>Em CSS seletores são padrões usados para selecionar e estilizar os elementos HTML em uma página web. Eles
+            defines quais elementos receberão as regras de estilos que serão declaradas dentro das chaves. Possuímos
+            varios tipos de seletores os principais são:</p>
+
+
+        <h2>Seletores de Classe</h2>
+
+        <p>Os seletores de classe em css são aqueles que são aplicados a elementos html que possuam o atributo class.
+            Esse seletor é utilizado amplamente quando queremos estilizar um documento html.</p>
+
+        <p>Este seletor sempre começara com um ".", seguido pelo nome do seletor e suas propriedades e valores.</p>
+
+        <p>Neste exemplo usamos seletores de classe e de tipo para estilizar o documento html.</p>
+    </div>
+
+    
+
+</body>
+</html>
